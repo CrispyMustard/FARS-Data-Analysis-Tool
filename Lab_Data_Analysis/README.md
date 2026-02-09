@@ -7,10 +7,12 @@ FARS Data Analysis Pipeline: Truck & Curve AnalyzerA Python-based data pipeline 
 📂 Required Folder StructureThe script is configured to look inside a specific Base Directory on Google Drive. Ensure your data is organized as follows:Plaintext/content/drive/MyDrive/Lab/Lab_Data_Analysis/  <-- Your BASE_DIR
 │
 ├── 2021/
+
 │   ├── vehicle.csv    # Raw Data (Contains V_ALIGN)
 │   └── VEH_AUX.csv    # Aux Data (Contains A_BODY)
 │
 ├── 2022/
+
 │   ├── vehicle.csv
 │   └── veh_aux.csv    # (Script handles lowercase names automatically)
 │
